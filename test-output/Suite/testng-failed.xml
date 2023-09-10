@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.EmailFrinedTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="RegisterUserCanSendProductToFirend"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="UserCanRegisterSucess"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="startdriver"/>
+          <include name="RestierUserCanlogin"/>
+        </methods>
+      </class> <!-- tests.EmailFrinedTest -->
+      <class name="tests.AddProductToCompareTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanCompareProducts"/>
+          <include name="UserCanAddToCompare2"/>
+          <include name="UserCanSearchAuto2"/>
+          <include name="startdriver"/>
+          <include name="UserCanSearchAuto1"/>
+          <include name="UserCanAddToCompare1"/>
+        </methods>
+      </class> <!-- tests.AddProductToCompareTest -->
+      <class name="tests.ContactUsPageTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanUseContactUs"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.ContactUsPageTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="RestierUserCanlogin"/>
+          <include name="UserCanChangePasswored"/>
+          <include name="UserCanRegisterSucess"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.RegisteredUseCheckoutProductTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="UserCanAddToCart"/>
+          <include name="RestierUserCanlogin"/>
+          <include name="UserCanRegisterSucess"/>
+          <include name="UserCanCheckout"/>
+          <include name="UserClickCheckout"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="UserCanConfirmedOrder"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.RegisteredUseCheckoutProductTest -->
+      <class name="tests.ChangeCurrencyTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanChangeCurrency"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.ChangeCurrencyTest -->
+      <class name="tests.AddProductToWishListTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="UserCanRemoveProductFromWishlist"/>
+          <include name="startdriver"/>
+          <include name="UserCanAddProductToWishlist"/>
+        </methods>
+      </class> <!-- tests.AddProductToWishListTest -->
+      <class name="tests.ProductHoverMenuTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanSelectSubCategegoryFormMainMenu"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.SearchProductTest">
+        <methods>
+          <include name="UserCanSearchProduct"/>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.UserRegistrationTest_UsingFakerlibrary">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="RestierUserCanlogin"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="UserCanRegisterSucess"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationTest_UsingFakerlibrary -->
+      <class name="tests.SearchProductUsingAutoSuggest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.SearchProductUsingAutoSuggest -->
+      <class name="tests.AddReviewTest">
+        <methods>
+          <include name="UserCanSearchAuto"/>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="RestierUserCanlogin"/>
+          <include name="RegisterUserCanLogout"/>
+          <include name="UserCanRegisterSucess"/>
+          <include name="startdriver"/>
+          <include name="UserCanAddReview"/>
+        </methods>
+      </class> <!-- tests.AddReviewTest -->
+      <class name="tests.GuestCheckoutFromCartTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanAddToCart"/>
+          <include name="UserClickCheckout"/>
+          <include name="UserCanSearchAuto"/>
+          <include name="UserCanCheckout"/>
+          <include name="UserCanConfirmedOrder"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.GuestCheckoutFromCartTest -->
+      <class name="tests.AddProductToShoppingCartTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="ScreenshotOnFail"/>
+          <include name="UserCanEditOfQuantityOfProduct"/>
+          <include name="UserCanRemoveProduct"/>
+          <include name="UserCanAddToCart"/>
+          <include name="startdriver"/>
+          <include name="UserCanSearchAuto1"/>
+        </methods>
+      </class> <!-- tests.AddProductToShoppingCartTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

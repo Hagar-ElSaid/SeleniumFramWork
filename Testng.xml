@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<parameter name="browser" value="chrome">
+	</parameter>
+	<test name="Regression Test" preserve-order="True">
+		<classes>
+			<class name="tests.UserRegistrationTest_UsingFakerlibrary" />
+			<class name="tests.ContactUsPageTest" />
+			<class name="tests.MyAccountTest" />
+			<class name="tests.EmailFrinedTest" />
+			<class name="tests.SearchProductTest" />
+			<class name="tests.ProductHoverMenuTest" />
+			<class name="tests.SearchProductUsingAutoSuggest" />
+			<class name="tests.AddProductToCompareTest" />
+			<class name="tests.AddProductToShoppingCartTest" />
+			<class name="tests.AddProductToWishListTest" />
+			<class name="tests.AddReviewTest" />
+			<class name="tests.ChangeCurrencyTest" />
+			<class name="tests.RegisteredUseCheckoutProductTest" />
+			<class name="tests.GuestCheckoutFromCartTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
