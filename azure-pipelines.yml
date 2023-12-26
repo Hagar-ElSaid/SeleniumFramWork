@@ -12,6 +12,9 @@ pool:
 steps:
 - task: DotNetCoreCLI@2
   inputs:
+    command: 'test'
+- task: DotNetCoreCLI@2
+  inputs:
     command: 'build'
 - task: Maven@3
   inputs:
